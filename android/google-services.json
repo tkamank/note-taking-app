@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "520194584819",
+    "firebase_url": "https://noteapp-268521.firebaseio.com",
+    "project_id": "noteapp-268521",
+    "storage_bucket": "noteapp-268521.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520194584819:android:fbb2e07c0cbab46502c786",
+        "android_client_info": {
+          "package_name": "com.noteApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520194584819-19aiqjrnjfh5mqj85br9k7h0vdb4e4ql.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.noteApp",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "520194584819-v201r77amedfkbkurcrg57skl97v8sbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQV0ok-cAE8IzQ5r6BauGQ_qRfBn12R5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520194584819-v201r77amedfkbkurcrg57skl97v8sbb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "520194584819-n2d0hgjdpdfgsanqghgrcfspe64m1joa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.mobile-app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,24 +1,34 @@
 import React, {Component} from 'react';
 import {
     SafeAreaView,
-    StatusBar,
     View,
+    StatusBar,
     Image,
     ImageBackground,
-    Text
+    Text,
+    Button
 } from 'react-native';
-import {StackActions, NavigationActions, NavigationSwitchScreenProps } from '@react-navigation/native';
+import {StackActions, NavigationActions, NavigationContainer, NavigationSwitchScreenProps } from '@react-navigation/native';
+import { createDrawerNavigation, createDrawerNavigator } from '@react-navigation/drawer';
+import Login from "./Login"
+import LandingPage from "./LandingPage";
+const Drawer  = createDrawerNavigator();
 
 export default class HomeScreen extends Component{
+    static navigationOptions = () => {
+        return {
+          
+        }
+    }
 
 
 
 render(){
     return(
-        <View style = {{flex: 1, flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
-            <Text>Home</Text>
-        </View>
-
-        )
+            <Drawer.Navigator initialRouteName="LandingPage">
+                <Drawer.Screen name="LandingPage"component={LandingPage}/>
+                <Drawer.Screen name="Login"component={Login}/>
+            </Drawer.Navigator> 
+        );
     }
 }
